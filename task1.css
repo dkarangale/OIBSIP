@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:cursive;
+  }
+  
+  nav {
+    background-color:black;
+    color: white;
+    font-family: cursive;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  header {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  header h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+  }
+  
+  .subscribe-form {
+    display: inline-table;
+  }
+
+  .subscribe-form input[type="name"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.subscribe-form input[type="password"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+    
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .bg-image {
+    background-image: url('img/img3.jpg');
+    background-size: cover;
+    color:black;
+    font-family: cursive;
+    text-align: right;
+    padding: 100px 0;
+  }
+  
+  footer {
+    background-color: #ff6b6b;
+    color: white;
+    text-align:center;
+    padding: 1rem 0;
+    height: 4rem;
+  }
+
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
